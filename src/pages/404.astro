@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { menu, href } from '../lib/site';
+---
+<Base title="Страница не найдена" url="/404/" indexable={false}>
+  <div class="wrap page" style="max-width: 780px">
+    <h1 class="page-title">Страница не найдена</h1>
+    <p>Сайт «Дети-читатели» переехал на новый адрес, и часть страниц теперь находится в других местах.
+      Попробуйте найти нужный материал поиском или начните с раздела своего класса.</p>
+    <p><button type="button" class="btn btn--primary" data-open="search-dialog">Поиск по сайту</button></p>
+    <ul>
+      {menu.map((m) => <li><a href={href(m.url)}>{m.title}</a></li>)}
+      <li><a href={href('/')}>Главная страница</a></li>
+    </ul>
+  </div>
+</Base>

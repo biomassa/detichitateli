@@ -1,0 +1,40 @@
+---
+// One Moodle tag: everything tagged with it, grouped as on Moodle's tag pages.
+import Base from '../../layouts/Base.astro';
+import { tags, href } from '../../lib/site';
+
+export function getStaticPaths() {
+  return Object.entries(tags).map(([slug, tag]) => ({ params: { slug }, props: { slug, tag } }));
+}
+const { slug, tag } = Astro.props;
+---
+<Base title={tag.name} url={`/tegi/${slug}/`}>
+  <div class="wrap page" style="max-width: 900px">
+    <nav class="crumbs" aria-label="Путь"><a href={href('/')}>Главная</a> / <a href={href('/tegi/')}>Теги</a></nav>
+    <h1 class="page-title">{tag.name}</h1>
+    {tag.groups.map((g) => (
+      <section class="tag-group">
+        <h2>{g.title}</h2>
+        <ul>
+          {g.items.map((it) => (
+            <li>
+              <a href={href(it.url)}>{it.title}</a>
+              {(it.section || it.context || it.course) && (
+                <span class="tag-group__meta">{[it.section, it.context, it.course].filter((x, i, a) => x && a.indexOf(x) === i).join(' · ')}</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .tag-group { margin-top: 32px; }
+  .tag-group h2 { margin: 0 0 12px; font-size: 22px; }
+  .tag-group ul { list-style: none; margin: 0; padding: 0; }
+  .tag-group li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .tag-group li a { font-weight: 600; }
+  .tag-group__meta { display: block; margin-top: 2px; font-size: 14px; color: var(--muted); }
+</style>

@@ -1,0 +1,199 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { menu, menuTrail, href, TELEGRAM } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** URL of the current page, used to highlight the menu */
+  url: string;
+  /** false for pages that should not be in the search index (404) */
+  indexable?: boolean;
+}
+const { title, description, url, indexable = true } = Astro.props;
+const SITE = 'Дети-читатели';
+const fullTitle = url === '/' ? `${SITE} — система литературного образования младших школьников` : `${title} — ${SITE}`;
+const activeTop = menuTrail(url)?.[0]?.url;
+const chev = '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
+---
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {/* review copy: NOINDEX=1 keeps search engines away (remove at launch on the real domain) */}
+  {process.env.NOINDEX === '1' && <meta name="robots" content="noindex, nofollow">}
+  <title>{fullTitle}</title>
+  {description && <meta name="description" content={description}>}
+  <link rel="icon" type="image/png" sizes="32x32" href={href('/favicon-32.png')}>
+  <link rel="apple-touch-icon" href={href('/apple-touch-icon.png')}>
+  <meta name="theme-color" content="#FFFFFF">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="wrap site-header__row">
+      <a class="brand" href={href('/')}>
+        <img src={href('/logo-header.png')} alt="" width="80" height="80">
+        <span>Дети-читатели</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:4px">
+        <nav class="nav" aria-label="Основное меню">
+          {menu.map((m) => <a href={href(m.url)} aria-current={m.url === activeTop ? (m.url === url ? 'page' : 'true') : undefined}>{m.title}</a>)}
+        </nav>
+        <button type="button" class="icon-btn" data-open="search-dialog" aria-label="Поиск по сайту">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button type="button" class="icon-btn menu-btn" data-open="menu-dialog" aria-label="Открыть меню">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <dialog id="menu-dialog" class="panel" aria-label="Меню">
+    <div class="panel__head">
+      <a class="brand" href={href('/')}><img src={href('/logo-header.png')} alt="" width="64" height="64"><span>Дети-читатели</span></a>
+      <button type="button" class="icon-btn" data-close aria-label="Закрыть меню">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="panel__body">
+      <ul class="mnav">
+        {menu.map((m) => (
+          <li>
+            {m.children.length ? (
+              <details open={m.url === activeTop}>
+                <summary>{m.title}<Fragment set:html={chev} /></summary>
+                <ul>
+                  {m.children.map((c) => (
+                    <li>
+                      <a href={href(c.url)} aria-current={c.url === url ? 'page' : undefined}>{c.title}</a>
+                      {c.children.length > 0 && (
+                        <ul>{c.children.map((g) => <li><a href={href(g.url)} aria-current={g.url === url ? 'page' : undefined}>{g.title}</a></li>)}</ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : (
+              <a href={href(m.url)} aria-current={m.url === url ? 'page' : undefined}>{m.title}</a>
+            )}
+          </li>
+        ))}
+        <li><a href={TELEGRAM}>Группа в Telegram</a></li>
+      </ul>
+    </div>
+  </dialog>
+
+  <dialog id="search-dialog" class="panel search" aria-label="Поиск по сайту">
+    <div class="panel__head">
+      <strong style="font-size:18px">Поиск по сайту</strong>
+      <button type="button" class="icon-btn" data-close aria-label="Закрыть поиск">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="panel__body"><div id="search" data-base={href('/pagefind/')}></div></div>
+  </dialog>
+
+  <main id="main" data-pagefind-body={indexable ? '' : undefined}>
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__row">
+      <div>
+        <p><strong>Дети-читатели</strong></p>
+        <p>Система литературного образования младших школьников</p>
+        <p>Купить наши учебные пособия можно <a href="https://luko.tb.ru/" target="_blank" rel="noopener"><strong>здесь</strong></a>.</p>
+      </div>
+      <nav aria-label="Нижнее меню">
+        {menu.map((m) => <a href={href(m.url)}>{m.title}</a>)}
+        <a href={href('/osnovy-obrazovatelnogo-podkhoda/')}>Основы подхода</a>
+        <a href={href('/tegi/')}>Теги</a>
+        <a href={TELEGRAM}>Telegram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // side menus are open in the HTML (wide screens); on phones they start collapsed
+    if (matchMedia('(max-width: 900px)').matches) {
+      document.querySelectorAll<HTMLDetailsElement>('details.side-toggle').forEach((d) => (d.open = false));
+    }
+
+    // dialogs (menu, search)
+    document.querySelectorAll<HTMLElement>('[data-open]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const d = document.getElementById(b.dataset.open!) as HTMLDialogElement;
+        d.showModal();
+        if (d.id === 'search-dialog') loadSearch();
+      }));
+    document.querySelectorAll<HTMLElement>('dialog [data-close]').forEach((b) =>
+      b.addEventListener('click', () => (b.closest('dialog') as HTMLDialogElement).close()));
+    document.querySelectorAll('dialog').forEach((d) =>
+      d.addEventListener('click', (e) => { if (e.target === d) d.close(); }));
+
+    // search: Pagefind UI, loaded on first open
+    let searchLoaded = false;
+    function loadSearch() {
+      const box = document.getElementById('search')!;
+      const focus = () => (box.querySelector('input') as HTMLInputElement | null)?.focus();
+      if (searchLoaded) return focus();
+      searchLoaded = true;
+      const base = box.dataset.base!;
+      const css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = base + 'pagefind-ui.css';
+      document.head.append(css);
+      const s = document.createElement('script');
+      s.src = base + 'pagefind-ui.js';
+      s.onload = () => {
+        // @ts-ignore provided by pagefind-ui.js
+        new PagefindUI({ element: '#search', showSubResults: true, showImages: false, translations: {
+          placeholder: 'Что вы ищете?', zero_results: 'Ничего не найдено по запросу «[SEARCH_TERM]»',
+          many_results: 'Найдено: [COUNT]', one_result: 'Найдено: 1', load_more: 'Показать ещё',
+          searching: 'Ищем «[SEARCH_TERM]»…', clear_search: 'Очистить',
+        } });
+        focus();
+      };
+      s.onerror = () => { box.textContent = 'Поиск работает на опубликованном сайте (после сборки).'; };
+      document.head.append(s);
+    }
+
+    // videos: replace the facade with the player only after a click
+    document.querySelectorAll<HTMLElement>('.video[data-youtube]').forEach((v) =>
+      v.querySelector('a')!.addEventListener('click', (e) => {
+        e.preventDefault();
+        const f = document.createElement('iframe');
+        f.src = `https://www.youtube-nocookie.com/embed/${v.dataset.youtube}?autoplay=1`;
+        f.title = 'Видео YouTube';
+        f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        f.allowFullscreen = true;
+        v.replaceChildren(f);
+      }));
+
+    // a link to a heading inside a closed block (search results, contents) opens that block
+    function revealHash() {
+      if (!location.hash) return;
+      const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (!el) return;
+      for (let d = el.closest('details'); d; d = d.parentElement?.closest('details') ?? null) d.open = true;
+      el.scrollIntoView();
+    }
+    addEventListener('hashchange', revealHash);
+    revealHash();
+
+    // «Развернуть все»
+    document.querySelectorAll<HTMLButtonElement>('[data-expand-all]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const all = document.querySelectorAll<HTMLDetailsElement>('.prose details');
+        const open = b.getAttribute('aria-pressed') !== 'true';
+        all.forEach((d) => (d.open = open));
+        b.setAttribute('aria-pressed', String(open));
+        b.textContent = open ? 'Свернуть все' : b.dataset.label!;
+      }));
+  </script>
+</body>
+</html>

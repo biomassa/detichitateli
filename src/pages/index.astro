@@ -1,0 +1,237 @@
+---
+import Base from '../layouts/Base.astro';
+import { href, TELEGRAM } from '../lib/site';
+
+// Content of the home page. Covers live in public/covers/.
+const grades = [
+  { title: '1 класс', url: '/1-klass/', cover: '/covers/grade1.jpg',
+    books: ['Учебник «Мы — читатели!»', 'Рабочая тетрадь «Мы и наши игры»'] },
+  { title: '2 класс', url: '/2-klass/', cover: '/covers/grade2.jpg',
+    books: ['Учебник «Секреты наших игр» и «Перечитаем вместе»', 'Тетради «Путешествуем вместе с Айболитом», «Врун, фантазёр, мечтатель?»'] },
+  { title: '3 класс', url: '/3-klass/', cover: '/covers/grade3.jpg',
+    books: ['Учебник «Как живешь, сказка?», «Сказки из-за моря»', 'Тетради «Буратино и Пиноккио», «Чудесный мир Пеппи»'] },
+  { title: '4 класс', url: '/4-klass/', cover: '/covers/grade4.jpg',
+    books: ['Учебник «Как рождается произведение», «Такие непохожие писатели»', 'Методическое сопровождение «Он живой и светится», «Про любовь и непогоду»'] },
+];
+
+// Newest first.
+// from the old home page (video lectures)
+const lectures = [
+  { id: 'NAGziwsKFSw', title: 'Дети-читатели: введение. Видеолекция' },
+  { id: 'DYpV935iIfE', title: 'Логика программы. Видеолекция' },
+  { id: 'Twgw2an7PJ0', title: 'Методические приемы. Видеолекция' },
+];
+const conferences = [
+  { date: '2 июля 2025', title: '«Новички и “старички”»', text: 'Третья конференция, в формате диалога.',
+    link: 'https://youtu.be/QffeU1CVSg4', linkText: 'Смотреть запись' },
+  { date: '22 декабря 2024', title: '«Детская инициатива на уроке (программа “Дети-читатели”)»', text: 'Вторая конференция.',
+    link: 'https://youtube.com/playlist?list=PLgoM-MkwmGojWgbin3f3Pk6nOhjloFX7z', linkText: 'Смотреть записи' },
+  { date: '28 июня 2024', title: '«“Дети-читатели”: трудности, находки, перспективы»', text: 'Международная конференция. Организаторы — авторы-разработчики УМК.',
+    link: 'https://youtube.com/playlist?list=PLgoM-MkwmGogbSTuLKWPuw4gIlrGafH85', linkText: 'Смотреть записи' },
+];
+
+const principles = [
+  ['Детский учебный материал', 'Целые произведения детской словесности вместо фрагментов — от простого к сложному.'],
+  ['Внимание к форме произведения', 'Работа с формой открывает доступ к смыслу — к авторскому высказыванию о мире.'],
+  ['Дети говорят друг с другом', 'Учебная коммуникация, в которой ребята слушают и слышат одноклассников.'],
+  ['Деятельностная основа', 'Дети экспериментируют, наблюдают и сами добывают знания.'],
+  ['Живые детские книги на уроке', 'Школьные уроки и учебники — начало читательских биографий наших учеников.'],
+];
+const arrow = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+const play = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8.5 5 3.5-5 3.5z"/></svg>';
+const tg = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4 3 11l6 2.5L11.5 20 15 15l5 4z"/><path d="m9 13.5 6-4.5"/></svg>';
+---
+<Base title="Главная" url="/" description="Методическая поддержка к учебным пособиям «Дети-читатели» для 1–4 классов, статьи разработчиков подхода, записи конференций.">
+  <section class="hero">
+    <div class="wrap hero__row">
+      <div class="hero__text">
+        <p class="kicker">Литературное чтение · 1–4 класс</p>
+        <h1>Система литературного образования младших школьников</h1>
+        <p class="lead">Методическая поддержка к нашим учебным пособиям, статьи разработчиков подхода и других авторов, имеющих отношение к содержанию нашей образовательной системы.</p>
+        <div class="actions">
+          <a class="btn btn--primary" href="#klassy">Выбрать класс <Fragment set:html={arrow} /></a>
+          <a class="btn btn--ghost" href={TELEGRAM} target="_blank" rel="noopener"><Fragment set:html={tg} /> Группа в Telegram</a>
+        </div>
+      </div>
+      <div class="hero__covers" aria-hidden="true">
+        <img src={href('/covers/grade1.jpg')} alt="" width="462" height="640">
+        <img src={href('/covers/grade4.jpg')} alt="" width="469" height="640">
+      </div>
+    </div>
+  </section>
+
+  <section class="authors" aria-labelledby="authors-h">
+    <div class="wrap authors__row">
+      <h2 id="authors-h">Авторы-разработчики УМК</h2>
+      <p>д.п.н. <strong>Т.С. Троицкая</strong> и к.п.н. <strong>О.Е. Петухова</strong></p>
+    </div>
+  </section>
+
+  <section id="klassy" class="block" aria-labelledby="klassy-h">
+    <div class="wrap">
+      <h2 id="klassy-h" class="block__title">Учебные комплекты</h2>
+      <p class="block__lead">Учебники, рабочие тетради и методическое сопровождение для каждого класса.</p>
+      <div class="grades">
+        {grades.map((g) => (
+          <a class="grade" href={href(g.url)}>
+            <img src={href(g.cover)} alt="" width="470" height="640" loading="lazy">
+            <span class="grade__body">
+              <span class="grade__title">{g.title}</span>
+              <span class="grade__books">{g.books.map((b) => <span>{b}</span>)}</span>
+              <span class="grade__more">Описание комплекта <Fragment set:html={arrow} /></span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block block--grey" aria-labelledby="konf-h">
+    <div class="wrap">
+      <h2 id="konf-h" class="block__title">Конференции</h2>
+      <p class="block__lead">Записи докладов и обсуждений — на нашем канале в YouTube.</p>
+      <div class="confs">
+        {conferences.map((c) => (
+          <article class="conf">
+            <p class="conf__date">{c.date}</p>
+            <h3>{c.title}</h3>
+            <p class="conf__text">{c.text}</p>
+            <a href={c.link} target="_blank" rel="noopener"><Fragment set:html={play} /> {c.linkText}</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="osnovy-h">
+    <div class="wrap osnovy">
+      <div class="osnovy__intro">
+        <h2 id="osnovy-h" class="block__title">Основы образовательного подхода</h2>
+        <p>Художественное произведение становится центром урока, а формирование полноценных читательских позиций — основной целью нового для начальной школы предмета.</p>
+        <a class="more" href={href('/osnovy-obrazovatelnogo-podkhoda/')}>Читать полностью <Fragment set:html={arrow} /></a>
+      </div>
+      <ol class="principles">
+        {principles.map(([t, d], i) => (
+          <li><span class="num">{i + 1}</span><div><h3>{t}</h3><p>{d}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="block block--grey" aria-labelledby="lekcii-h">
+    <div class="wrap">
+      <h2 id="lekcii-h" class="block__title">Видеолекции</h2>
+      <div class="lectures">
+        {lectures.map((l) => (
+          <figure class="lecture">
+            <div class="video" data-youtube={l.id}>
+              <a class="video__facade" href={`https://www.youtube.com/watch?v=${l.id}`}>
+                <img class="lecture__thumb" src={href(`/lectures/${l.id}.jpg`)} alt="" loading="lazy">
+                <span class="video__play" aria-hidden="true"></span>
+                <span class="video__label">Видео на YouTube — нажмите, чтобы смотреть</span>
+              </a>
+            </div>
+            <figcaption>{l.title}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="block" aria-label="Ещё на сайте">
+    <div class="wrap links">
+      <a class="link-card" href={href('/stati/')}>
+        <span class="link-card__title">Статьи</span>
+        <span>Статьи разработчиков подхода и других авторов — читать онлайн и скачать в PDF.</span>
+      </a>
+      <a class="link-card link-card--accent" href={TELEGRAM} target="_blank" rel="noopener">
+        <span class="link-card__title">Наша группа в Telegram</span>
+        <span>Связь с разработчиками и с педагогами, работающими по нашей системе в России и за рубежом.</span>
+      </a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+  .hero__row { display: flex; flex-wrap: wrap; gap: 56px; align-items: center; padding-block: 88px 80px; }
+  .hero__text { flex: 999 1 520px; min-width: 0; }
+  .kicker { margin: 0 0 16px; font-size: 20px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+  .hero h1 { margin: 0 0 20px; font-size: 36px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; } /* same as .block__title */
+  .lead { margin: 0 0 32px; max-width: 640px; font-size: 20px; color: var(--text-2); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hero__covers { flex: 1 1 380px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .hero__covers img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 10px; box-shadow: 0 1px 2px rgba(17,24,39,.08), 0 8px 24px rgba(17,24,39,.08); }
+  .hero__covers img:first-child { transform: translateY(24px); }
+  @media (max-width: 720px) {
+    .hero__row { padding-block: 40px 36px; gap: 24px; }
+    .hero h1 { font-size: 26px; }
+    .kicker { font-size: min(17px, calc((100vw - 2 * var(--gutter)) / 21)); } /* one line on narrow phones */
+    .lead { font-size: 17px; margin-bottom: 24px; }
+    .actions { flex-direction: column; }
+    .hero__covers { display: none; }
+  }
+  .authors { border-bottom: 1px solid var(--line); }
+  .authors__row { display: flex; flex-wrap: wrap; gap: 4px 32px; align-items: baseline; padding-block: 24px; }
+  .authors h2 { margin: 0; font-size: 15px; font-weight: 600; color: var(--muted); }
+  .authors p { margin: 0; }
+  .authors strong { font-weight: 600; }
+  .block { padding-block: 80px; }
+  .block--grey { background: var(--surface); border-block: 1px solid var(--line); }
+  @media (max-width: 720px) { .block { padding-block: 40px; } }
+  .block__title { margin: 0 0 8px; font-size: 36px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
+  .block__lead { margin: 0 0 40px; color: var(--muted); font-size: 18px; }
+  @media (max-width: 720px) { .block__title { font-size: 26px; } .block__lead { margin-bottom: 20px; font-size: 16px; } }
+  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+  .grade { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; color: var(--text); text-decoration: none; background: #FFF; }
+  .grade:hover { border-color: var(--accent); color: var(--text); }
+  .grade img { width: 100%; height: 200px; object-fit: cover; object-position: top; background: var(--surface); }
+  .grade__body { display: flex; flex-direction: column; gap: 12px; padding: 20px 22px 22px; flex-grow: 1; }
+  .grade__title { font-size: 24px; font-weight: 700; }
+  .grade__books { display: flex; flex-direction: column; gap: 6px; font-size: 16px; color: var(--text-2); }
+  .grade__more { margin-top: auto; padding-top: 8px; display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--accent); }
+  @media (max-width: 720px) {
+    .grades { gap: 12px; }
+    .grade { flex-direction: row; align-items: center; padding: 12px; gap: 14px; border-radius: 12px; }
+    .grade img { width: 64px; height: 84px; flex: none; border-radius: 6px; }
+    .grade__body { padding: 0; gap: 2px; }
+    .grade__title { font-size: 19px; }
+    .grade__books { font-size: 14px; color: var(--muted); line-height: 1.45; gap: 0; }
+    .grade__more { display: none; }
+  }
+  .confs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .conf { display: flex; flex-direction: column; gap: 12px; padding: 26px; border-radius: 14px; background: #FFF; border: 1px solid var(--line); }
+  .conf p, .conf h3 { margin: 0; }
+  .conf__date { font-size: 15px; font-weight: 600; color: var(--accent); }
+  .conf h3 { font-size: 21px; line-height: 1.35; font-weight: 600; }
+  .conf__text { font-size: 16px; color: var(--muted); }
+  .conf a { margin-top: auto; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; text-decoration: none; }
+  @media (max-width: 720px) { .confs { gap: 12px; } .conf { padding: 18px; gap: 6px; } .conf h3 { font-size: 17px; } }
+  .osnovy { display: flex; flex-wrap: wrap; gap: 48px 64px; }
+  .osnovy__intro { flex: 1 1 320px; min-width: 0; }
+  .osnovy__intro p { color: var(--text-2); margin: 0 0 24px; }
+  .more { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-weight: 600; text-decoration: none; }
+  .principles { flex: 999 1 560px; min-width: 0; margin: 0; padding: 0; list-style: none; }
+  .principles li { display: flex; gap: 20px; padding: 20px 0; border-top: 1px solid var(--line); }
+  .principles li:last-child { border-bottom: 1px solid var(--line); }
+  .principles h3 { margin: 0 0 4px; font-size: 19px; font-weight: 600; }
+  .principles p { margin: 0; color: var(--muted); font-size: 16px; }
+  .num { flex: none; width: 36px; height: 36px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .lecture .video__facade { overflow: hidden; }
+  .lecture__thumb { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .lecture .video__play { position: relative; background-color: rgba(17,24,39,.65); }
+  .lecture .video__label { position: absolute; left: 0; right: 0; bottom: 0; padding: 8px 12px; background: rgba(17,24,39,.7); font-size: 14px; }
+  .lectures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .lecture { margin: 0; }
+  .lecture .video { margin: 0; max-width: none; }
+  .lecture figcaption { margin-top: 12px; font-size: 18px; font-weight: 600; line-height: 1.35; }
+  @media (max-width: 900px) { .lectures { grid-template-columns: 1fr; max-width: 560px; } }
+  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .link-card { display: flex; flex-direction: column; gap: 4px; padding: 28px; border-radius: 14px; border: 1px solid var(--line); color: var(--muted); text-decoration: none; font-size: 16px; }
+  .link-card:hover { border-color: var(--accent); color: var(--muted); }
+  .link-card__title { font-size: 21px; font-weight: 600; color: var(--text); }
+  .link-card--accent { background: var(--accent); border-color: var(--accent); color: var(--accent-soft); }
+  .link-card--accent:hover { background: var(--accent-hover); color: var(--accent-soft); }
+  .link-card--accent .link-card__title { color: #FFF; }
+  @media (max-width: 720px) { .links { gap: 12px; } .link-card { padding: 20px; } }
+</style>

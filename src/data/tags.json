@@ -1,0 +1,1815 @@
+{
+ "4-klass": {
+  "name": "4 класс",
+  "groups": [
+   {
+    "title": "Курсы",
+    "items": [
+     {
+      "title": "Такие непохожие писатели. Книга 1 — Он живой и светится",
+      "url": "/on-zhivoy-i-svetitsya/",
+      "course": ""
+     }
+    ]
+   }
+  ]
+ },
+ "deti-chitateli": {
+  "name": "дети-читатели",
+  "groups": [
+   {
+    "title": "Курсы",
+    "items": [
+     {
+      "title": "Такие непохожие писатели. Книга 1 — Он живой и светится",
+      "url": "/on-zhivoy-i-svetitsya/",
+      "course": ""
+     }
+    ]
+   }
+  ]
+ },
+ "dragunskiy": {
+  "name": "драгунский",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Учебное пособие «Такие непохожие писатели»: структура и образовательные стратегии",
+      "url": "/on-zhivoy-i-svetitsya/uchebnoe-posobie-takie/uchebnoe-posobie-takie/",
+      "section": "Учебное пособие «Такие непохожие писатели»: введение",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "«Он живой и светится»: структура и логика",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/",
+      "section": "Книга 1. Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по работе с электронными ресурсами",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/primery-zadaniy-po-rabote-s/",
+      "section": "Книга 1. Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Куриный бульон»: читаем по ролям",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-1-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Куриный бульон»: обсуждение",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-2-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Куриный бульон»: обсуждаем замысел писателя и режиссера",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-3-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/primery-zadaniy-k-etomu/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Тайное становится явным»: чтение, система эпизодов",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-1-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Тайное становится явным»: почему читателям смешно, когда героям не до смеха?",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-2-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Тайное становится явным»: сравниваем рассказ с фильмами",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-3-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Денис Драгунский о рассказе «Тайное становится явным»",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/denis-dragunskiy-o-rasskaze/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/primery-zadaniy-k-etomu/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Слава Ивана Козловского»: читаем и обмениваемся впечатлениями",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-1-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Слава Ивана Козловского»: название, рамка, секреты центральной части рассказа",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-2-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Слава Ивана Козловского»: как Виктор Драгунский изображает характер героя; рассказ и фильм",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-3-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/primery-zadaniy-k-etomu/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — узнаём, что такое сценарий; дописываем сценарий по рассказу",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-4-uznayom-chto/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Что такое сценарий?",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/chto-takoe-stsenariy/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/primery-zadaniy-po-proektu/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Что любит Мишка»: читаем и сравниваем с рассказом «Слава Ивана Козловского»",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-1-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Что любит Мишка»: лирические нотки в смешном рассказе, рассказ «Что я люблю»",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-2-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Что любит Мишка»: рассказ и фильм",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-3-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/primery-zadaniy-k-etomu/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — Учимся писать сценарий",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-4-uchimsya-pisat/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Как написать сценарий",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/kak-napisat-stsenariy/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/primery-zadaniy-po-proektu/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Шляпа гроссмейстера»: знакомимся с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-1-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Шляпа гроссмейстера»: смешно или грустно?",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-2-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Шляпа гроссмейстера»: почему мы смеёмся, когда героям невесело?",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-3-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Шляпа гроссмейстера»: пишем сценарий по фрагменту рассказа",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-4-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/primery-zadaniy-po-proektu/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Расскажите мне про Сингапур»: чем необычен и интересен этот рассказ?",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-1-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Расскажите мне про Сингапур»: система эпизодов и сюжетные перестановки",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-2-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Расскажите мне про Сингапур»: над чем смеётся тётя Мила?",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-3-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Расскажите мне про Сингапур»: сравниваем фильм «Капитан» с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-4-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/primery-zadaniy-k-etomu/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Он живой и светится»: читаем рассказ про себя и по ролям; сравниваем с другими рассказами",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-1-on-zhivoy-i/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Он живой и светится»: настроение Дениски; сравниваем фрагмент фильма с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-2-on-zhivoy-i/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/primery-zadaniy-k-etomu/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Третье место в стиле баттерфляй»: пишем сценарий по новому рассказу Драгунского",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-3-trete-mesto-v/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Друг детства»: читаем рассказ и пишем работу",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-1-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Друг детства»: делимся друг с другом своими наблюдениями",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-2-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Друг детства»: смотрим фильм и сравниваем с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-3-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — Пишем сценарий по двум рассказам",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-4-pishem/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Девочка на шаре»: читаем рассказ и пишем работу",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-1-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Девочка на шаре»: обсуждаем письменные работы, читаем вслух эпизоды рассказа",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-2-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — обсуждаем фильмы по рассказу «Девочка на шаре»",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-3-obsuzhdaem/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Девочка на шаре»: заключительный урок",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-4-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Завершаем работу по Драгунскому — примеры заданий для детей",
+      "url": "/on-zhivoy-i-svetitsya/zavershaem-rabotu-po/zavershaem-rabotu-po/",
+      "section": "Завершаем работу по рассказам Драгунского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Учебное пособие «Такие непохожие писатели»: структура и образовательные стратегии",
+      "url": "/pro-lyubov-i-nepogodu/uchebnoe-posobie-takie/uchebnoe-posobie-takie/",
+      "section": "Учебное пособие «Такие непохожие писатели»: введение",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем стихи о дожде, выбираем «своё», учим и исполняем наизусть",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-1-chitaem-stikhi/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — сравниваем стихотворения М. Бородицкой, В. Друка и Н. Волковой; олицетворение, метафора, лирический герой",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-2-sravnivaem/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — Тимофей Белозёров «Летний дождь»: ритмика стихотворения",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-3-timofey/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — Людвиг Ежи Керн «Зонтик»: фигурные стихи",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-4-lyudvig-ezhi/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 5 — Т. Белозёров, В. Берестов, В. Маяковский: образные стихи",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-5-t-belozyorov-v/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 6 — сравниваем стихотворения В. Берестова и С. Маршака",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-6-sravnivaem/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 7 — Олег Григорьев «Дождь»: «дождевые» слова",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-7-oleg-grigorev/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 8 — А. Усачев «Улитка»: инсценируем, сравниваем со стихотворением Клода Руа «Дождь»",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-8-a-usachev/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 9 — заключительный урок по стихам о дожде",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-9/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем и исполняем стихи о грозе",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-1-chitaem-i/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — стихотворение А. Шибаева: повторы, ритмика",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-2-stikhotvorenie/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — сравниваем стихотворения Г. Сапгира и Т. Собакина",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-3-sravnivaem/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — читаем и сравниваем стихотворения И. Пивоваровой, С. Козлова, О. Сердобольского, М. Рупасовой",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-4-chitaem-i/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 5 — стихотворение Н. Слепаковой «Дождь»",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-5-stikhotvorenie/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 6 — обобщающий урок по стихам о грозе",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-6/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем, обсуждаем, исполняем стихи о ветре",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-1-chitaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — сравниваем стихотворения Э. Мошковской и С. Козлова: как поэты изображают ветер",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-2-sravnivaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — сравниваем стихотворения В. Лунина, М. Яснова, О. Дриза, Э. Мошковской: поэтические замыслы",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-3-sravnivaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — «Галчонок» и «Ослик»: читаем, сравниваем, разыгрываем",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-1-galchonok-i/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — «Галчонок» и «Ослик»: работа языкового материала и поэтические замыслы",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-2-galchonok-i/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — В. Орлов. «Мальчишка Том»",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-3-v-orlov/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — И. Пивоварова. «Щегол»",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-4-i-pivovarova/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/primery-zadaniy-k-etomu/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — стихи Тима Собакина, Марины Бородицкой, Маши Рупасовой, Николая Ламма, Елены Липатовой и Андрея Усачева",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-1-stikhi-tima/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — стихи Генриха Сапгира, Маши Рупасовой, Ирины Токмаковой, Новеллы Матвеевой, Михаила Яснова и Тима Собакина",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-2-stikhi/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — «мой» лирический герой; что меня трогает и удивляет",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-3-moy/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем стихи, выбираем «своё» стихотворение",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-1-chitaem-stikhi/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — работаем в группах со стихами, которые выбрали",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-2-rabotaem-v/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — представляем результаты групповой работы",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-3-predstavlyaem/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     }
+    ]
+   }
+  ]
+ },
+ "drug-detstva": {
+  "name": "Друг детства",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Школьная форма",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/shkolnaya-forma/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Ален Бомбар",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/alen-bombar/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— Сейчас январь, груш нет. Съешь пока морковку\"",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/seychas-yanvar-grush-net-sesh/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— Ты спятил, братец, — сказал папа. — Перебейся как-нибудь без груши. Ничего с тобой не случится\"",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/ty-spyatil-bratets-skazal/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Утлый челонок",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-33",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "istoricheskaya-rabota": {
+  "name": "историческая работа",
+  "groups": [
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Николай Мамай",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/nikolay-mamay/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "istoricheskaya-rubrika": {
+  "name": "историческая рубрика",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/istoricheskaya-rubrika/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/istoricheskaya-rubrika/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Курица за окном",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/kuritsa-za-oknom/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Стрижка под бокс",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/strizhka-pod-boks/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Опалить курицу на огне",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/opalit-kuritsu-na-ogne/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Земляничное мыло",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/zemlyanichnoe-mylo/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Оловянные солдатики",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/olovyannye-soldatiki/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Табель",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/tabel/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Кляксы, перо и чернильница",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/klyaksy-pero-i-chernilnitsa/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Песня «Марш Будённого»",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/pesnya-marsh-budyonnogo/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Гражданская война",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/grazhdanskaya-voyna/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Будённый",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/budyonnyy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Лобачевский",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/lobachevskiy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Менделеев",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/mendeleev/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Суриков",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/surikov/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Кольцов",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/koltsov/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Козловский",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/kozlovskiy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Шопен",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/istoricheskaya-rubrika/shopen/",
+      "section": "Что любит Мишка",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Ботвинник",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/botvinnik/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Маркуша, Маркушка",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/markusha-markushka/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Снимусь с ним на карточку",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/snimus-s-nim-na-kartochku/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Атомный ледокол «Ленин»",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/istoricheskaya-rubrika/atomnyy-ledokol-lenin/",
+      "section": "Расскажите мне про Сингапур",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— Я тебе за него могу дать одну Гватемалу и два Барбадоса!\"",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/ya-tebe-za-nego-mogu-dat-odnu/",
+      "section": "Он живой и светится",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— А плавать где? В ванной? По вторникам?\"",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/a-plavat-gde-v-vannoy-po/",
+      "section": "Он живой и светится",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Школьная форма",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/shkolnaya-forma/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Ален Бомбар",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/alen-bombar/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— Сейчас январь, груш нет. Съешь пока морковку\"",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/istoricheskaya-rubrika/seychas-yanvar-grush-net-sesh/",
+      "section": "Друг детства",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "kurinyy-bulon": {
+  "name": "куриный бульон",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Курица за окном",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/kuritsa-za-oknom/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Стрижка под бокс",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/strizhka-pod-boks/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Опалить курицу на огне",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/opalit-kuritsu-na-ogne/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Земляничное мыло",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/zemlyanichnoe-mylo/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Оловянные солдатики",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/istoricheskaya-rubrika/olovyannye-soldatiki/",
+      "section": "Куриный бульон",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Проще пареной репы",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-19",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "on-zhivoy-i-svetitsya": {
+  "name": "Он живой и светится",
+  "groups": [
+   {
+    "title": "Курсы",
+    "items": [
+     {
+      "title": "Такие непохожие писатели. Книга 1 — Он живой и светится",
+      "url": "/on-zhivoy-i-svetitsya/",
+      "course": ""
+     }
+    ]
+   },
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "\"— Я тебе за него могу дать одну Гватемалу и два Барбадоса!\"",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/ya-tebe-za-nego-mogu-dat-odnu/",
+      "section": "Он живой и светится",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "\"— А плавать где? В ванной? По вторникам?\"",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/istoricheskaya-rubrika/a-plavat-gde-v-vannoy-po/",
+      "section": "Он живой и светится",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "proekt-uroka": {
+  "name": "проект урока",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Учебное пособие «Такие непохожие писатели»: структура и образовательные стратегии",
+      "url": "/on-zhivoy-i-svetitsya/uchebnoe-posobie-takie/uchebnoe-posobie-takie/",
+      "section": "Учебное пособие «Такие непохожие писатели»: введение",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "«Он живой и светится»: структура и логика",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/",
+      "section": "Книга 1. Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по работе с электронными ресурсами",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/primery-zadaniy-po-rabote-s/",
+      "section": "Книга 1. Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Куриный бульон»: читаем по ролям",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-1-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Куриный бульон»: обсуждение",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-2-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Куриный бульон»: обсуждаем замысел писателя и режиссера",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/proekt-uroka-3-kurinyy-bulon/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/kurinyy-bulon/primery-zadaniy-k-etomu/",
+      "section": "Куриный бульон",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Тайное становится явным»: чтение, система эпизодов",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-1-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Тайное становится явным»: почему читателям смешно, когда героям не до смеха?",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-2-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Тайное становится явным»: сравниваем рассказ с фильмами",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/proekt-uroka-3-taynoe/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Денис Драгунский о рассказе «Тайное становится явным»",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/denis-dragunskiy-o-rasskaze/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/taynoe-stanovitsya-yavnym/primery-zadaniy-k-etomu/",
+      "section": "Тайное становится явным",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Слава Ивана Козловского»: читаем и обмениваемся впечатлениями",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-1-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Слава Ивана Козловского»: название, рамка, секреты центральной части рассказа",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-2-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Слава Ивана Козловского»: как Виктор Драгунский изображает характер героя; рассказ и фильм",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-3-slava-ivana/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/primery-zadaniy-k-etomu/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — узнаём, что такое сценарий; дописываем сценарий по рассказу",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/proekt-uroka-4-uznayom-chto/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Что такое сценарий?",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/chto-takoe-stsenariy/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/primery-zadaniy-po-proektu/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Что любит Мишка»: читаем и сравниваем с рассказом «Слава Ивана Козловского»",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-1-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Что любит Мишка»: лирические нотки в смешном рассказе, рассказ «Что я люблю»",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-2-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Что любит Мишка»: рассказ и фильм",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-3-chto-lyubit/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/primery-zadaniy-k-etomu/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — Учимся писать сценарий",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/proekt-uroka-4-uchimsya-pisat/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Как написать сценарий",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/kak-napisat-stsenariy/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/primery-zadaniy-po-proektu/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Шляпа гроссмейстера»: знакомимся с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-1-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Шляпа гроссмейстера»: смешно или грустно?",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-2-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Шляпа гроссмейстера»: почему мы смеёмся, когда героям невесело?",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-3-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Шляпа гроссмейстера»: пишем сценарий по фрагменту рассказа",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/proekt-uroka-4-shlyapa/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий по проекту",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/primery-zadaniy-po-proektu/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Расскажите мне про Сингапур»: чем необычен и интересен этот рассказ?",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-1-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Расскажите мне про Сингапур»: система эпизодов и сюжетные перестановки",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-2-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Расскажите мне про Сингапур»: над чем смеётся тётя Мила?",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-3-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Расскажите мне про Сингапур»: сравниваем фильм «Капитан» с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/proekt-uroka-4-rasskazhite/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/primery-zadaniy-k-etomu/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Он живой и светится»: читаем рассказ про себя и по ролям; сравниваем с другими рассказами",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-1-on-zhivoy-i/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Он живой и светится»: настроение Дениски; сравниваем фрагмент фильма с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-2-on-zhivoy-i/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/primery-zadaniy-k-etomu/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Третье место в стиле баттерфляй»: пишем сценарий по новому рассказу Драгунского",
+      "url": "/on-zhivoy-i-svetitsya/on-zhivoy-i-svetitsya/proekt-uroka-3-trete-mesto-v/",
+      "section": "Он живой и светится",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Друг детства»: читаем рассказ и пишем работу",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-1-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Друг детства»: делимся друг с другом своими наблюдениями",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-2-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — «Друг детства»: смотрим фильм и сравниваем с рассказом",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-3-drug-detstva/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — Пишем сценарий по двум рассказам",
+      "url": "/on-zhivoy-i-svetitsya/drug-detstva/proekt-uroka-4-pishem/",
+      "section": "Друг детства",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 1 — «Девочка на шаре»: читаем рассказ и пишем работу",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-1-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 2 — «Девочка на шаре»: обсуждаем письменные работы, читаем вслух эпизоды рассказа",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-2-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 3 — обсуждаем фильмы по рассказу «Девочка на шаре»",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-3-obsuzhdaem/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Проект урока 4 — «Девочка на шаре»: заключительный урок",
+      "url": "/on-zhivoy-i-svetitsya/devochka-na-share/proekt-uroka-4-devochka-na/",
+      "section": "Девочка на шаре",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Завершаем работу по Драгунскому — примеры заданий для детей",
+      "url": "/on-zhivoy-i-svetitsya/zavershaem-rabotu-po/zavershaem-rabotu-po/",
+      "section": "Завершаем работу по рассказам Драгунского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Учебное пособие «Такие непохожие писатели»: структура и образовательные стратегии",
+      "url": "/pro-lyubov-i-nepogodu/uchebnoe-posobie-takie/uchebnoe-posobie-takie/",
+      "section": "Учебное пособие «Такие непохожие писатели»: введение",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем стихи о дожде, выбираем «своё», учим и исполняем наизусть",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-1-chitaem-stikhi/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — сравниваем стихотворения М. Бородицкой, В. Друка и Н. Волковой; олицетворение, метафора, лирический герой",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-2-sravnivaem/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — Тимофей Белозёров «Летний дождь»: ритмика стихотворения",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/proekt-uroka-3-timofey/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-1/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — Людвиг Ежи Керн «Зонтик»: фигурные стихи",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-4-lyudvig-ezhi/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 5 — Т. Белозёров, В. Берестов, В. Маяковский: образные стихи",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-5-t-belozyorov-v/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 6 — сравниваем стихотворения В. Берестова и С. Маршака",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/proekt-uroka-6-sravnivaem/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 7 — Олег Григорьев «Дождь»: «дождевые» слова",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-7-oleg-grigorev/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 8 — А. Усачев «Улитка»: инсценируем, сравниваем со стихотворением Клода Руа «Дождь»",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-8-a-usachev/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 9 — заключительный урок по стихам о дожде",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/proekt-uroka-9/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-3/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Дождь — 3",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем и исполняем стихи о грозе",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-1-chitaem-i/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — стихотворение А. Шибаева: повторы, ритмика",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-2-stikhotvorenie/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — сравниваем стихотворения Г. Сапгира и Т. Собакина",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/proekt-uroka-3-sravnivaem/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-1/primery-zadaniy-k-etomu/",
+      "section": "Разыгралась непогода. Гроза — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — читаем и сравниваем стихотворения И. Пивоваровой, С. Козлова, О. Сердобольского, М. Рупасовой",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-4-chitaem-i/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 5 — стихотворение Н. Слепаковой «Дождь»",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-5-stikhotvorenie/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 6 — обобщающий урок по стихам о грозе",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-groza-2/proekt-uroka-6/",
+      "section": "Разыгралась непогода. Гроза — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем, обсуждаем, исполняем стихи о ветре",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-1-chitaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — сравниваем стихотворения Э. Мошковской и С. Козлова: как поэты изображают ветер",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-2-sravnivaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — сравниваем стихотворения В. Лунина, М. Яснова, О. Дриза, Э. Мошковской: поэтические замыслы",
+      "url": "/pro-lyubov-i-nepogodu/razygralas-nepogoda-veter/proekt-uroka-3-sravnivaem/",
+      "section": "Разыгралась непогода. Ветер",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — «Галчонок» и «Ослик»: читаем, сравниваем, разыгрываем",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-1-galchonok-i/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — «Галчонок» и «Ослик»: работа языкового материала и поэтические замыслы",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-2-galchonok-i/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — В. Орлов. «Мальчишка Том»",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-3-v-orlov/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 4 — И. Пивоварова. «Щегол»",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/proekt-uroka-4-i-pivovarova/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Примеры заданий к этому модулю",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-1/primery-zadaniy-k-etomu/",
+      "section": "Про любовь — 1",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — стихи Тима Собакина, Марины Бородицкой, Маши Рупасовой, Николая Ламма, Елены Липатовой и Андрея Усачева",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-1-stikhi-tima/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — стихи Генриха Сапгира, Маши Рупасовой, Ирины Токмаковой, Новеллы Матвеевой, Михаила Яснова и Тима Собакина",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-2-stikhi/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — «мой» лирический герой; что меня трогает и удивляет",
+      "url": "/pro-lyubov-i-nepogodu/pro-lyubov-2/proekt-uroka-3-moy/",
+      "section": "Про любовь — 2",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 1 — читаем стихи, выбираем «своё» стихотворение",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-1-chitaem-stikhi/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 2 — работаем в группах со стихами, которые выбрали",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-2-rabotaem-v/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     },
+     {
+      "title": "Проект урока 3 — представляем результаты групповой работы",
+      "url": "/pro-lyubov-i-nepogodu/o-chyom-eti-stikhi/proekt-uroka-3-predstavlyaem/",
+      "section": "О чём эти стихи?",
+      "course": "Такие непохожие писатели. Книга 2 — Про любовь и непогоду"
+     }
+    ]
+   }
+  ]
+ },
+ "rasskazhite-mne-pro-singapur": {
+  "name": "Расскажите мне про Сингапур",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/istoricheskaya-rubrika/",
+      "section": "Расскажите мне про Сингапур",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Атомный ледокол «Ленин»",
+      "url": "/on-zhivoy-i-svetitsya/rasskazhite-mne-pro-singapur/istoricheskaya-rubrika/atomnyy-ledokol-lenin/",
+      "section": "Расскажите мне про Сингапур",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Вольно",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-32",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Кортик",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-31",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Ноль сорок",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-27",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Сингапур",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-28",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Телячий восторг",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-26",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Тубо",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-29",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Яйцо всмятку",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-30",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "slava-ivana-kozlovskog": {
+  "name": "Слава Ивана Козловског",
+  "groups": [
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Будённый",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/budyonnyy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "slava-ivana-kozlovskogo": {
+  "name": "Слава Ивана Козловского",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "«Слава Ивана Козловского»  — экранизация рассказа",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/slava-ivana-kozlovskogo-2/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Табель",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/tabel/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Кляксы, перо и чернильница",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/klyaksy-pero-i-chernilnitsa/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Песня «Марш Будённого»",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/pesnya-marsh-budyonnogo/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Гражданская война",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/grazhdanskaya-voyna/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Лобачевский",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/lobachevskiy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Менделеев",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/mendeleev/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Суриков",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/surikov/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Кольцов",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/koltsov/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Николай Мамай",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/nikolay-mamay/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Козловский",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/istoricheskaya-rubrika/kozlovskiy/",
+      "section": "Слава Ивана Козловского",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Алый стяг",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-21",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Прилежание",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-23",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Упоительный",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-22",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "taynoe-stanovitsya-yavnym": {
+  "name": "тайное становится явным",
+  "groups": [
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Клеветать",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-20",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "film": {
+  "name": "фильм",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "«Слава Ивана Козловского»  — экранизация рассказа",
+      "url": "/on-zhivoy-i-svetitsya/slava-ivana-kozlovskogo/slava-ivana-kozlovskogo-2/",
+      "section": "Слава Ивана Козловского",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "chto-lyubit-mishka": {
+  "name": "Что любит Мишка",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/istoricheskaya-rubrika/",
+      "section": "Что любит Мишка",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Шопен",
+      "url": "/on-zhivoy-i-svetitsya/chto-lyubit-mishka/istoricheskaya-rubrika/shopen/",
+      "section": "Что любит Мишка",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ },
+ "shlyapa-grossmeystera": {
+  "name": "Шляпа гроссмейстера",
+  "groups": [
+   {
+    "title": "Элементы и ресурсы",
+    "items": [
+     {
+      "title": "Историческая рубрика",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/",
+      "section": "Шляпа гроссмейстера",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Главы книги",
+    "items": [
+     {
+      "title": "Ботвинник",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/botvinnik/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Маркуша, Маркушка",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/markusha-markushka/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Снимусь с ним на карточку",
+      "url": "/on-zhivoy-i-svetitsya/shlyapa-grossmeystera/istoricheskaya-rubrika/snimus-s-nim-na-kartochku/",
+      "section": "Шляпа гроссмейстера",
+      "context": "Историческая рубрика",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   },
+   {
+    "title": "Записи глоссария",
+    "items": [
+     {
+      "title": "Гроссмейстер",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-24",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     },
+     {
+      "title": "Хлястик",
+      "url": "/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-25",
+      "section": "Книга 1. Он живой и светится",
+      "context": "Редкие слова из рассказов Драгунского. Глоссарий",
+      "course": "Такие непохожие писатели. Книга 1 — Он живой и светится"
+     }
+    ]
+   }
+  ]
+ }
+}

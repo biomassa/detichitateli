@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Главная",
+    "url": "/",
+    "children": []
+  },
+  {
+    "title": "1 класс",
+    "url": "/1-klass/",
+    "children": [
+      {
+        "title": "Описание комплекта",
+        "url": "/1-klass/",
+        "children": []
+      },
+      {
+        "title": "Мы и наши игры",
+        "url": "/my-i-nashi-igry/",
+        "children": []
+      },
+      {
+        "title": "Мы — читатели!",
+        "url": "/my-chitateli/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "2 класс",
+    "url": "/2-klass/",
+    "children": [
+      {
+        "title": "Описание комплекта",
+        "url": "/2-klass/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "3 класс",
+    "url": "/3-klass/",
+    "children": [
+      {
+        "title": "Описание комплекта",
+        "url": "/3-klass/",
+        "children": []
+      },
+      {
+        "title": "Как живешь, сказка?",
+        "url": "/kak-zhivesh-skazka/",
+        "children": []
+      },
+      {
+        "title": "Сказки из-за моря",
+        "url": "/skazki-iz-za-morya/",
+        "children": []
+      },
+      {
+        "title": "Буратино и Пиноккио (рабочая тетрадь)",
+        "url": "/buratino-i-pinokkio-rabochaya-tetrad/",
+        "children": []
+      },
+      {
+        "title": "Чудесный мир Пеппи (рабочая тетрадь)",
+        "url": "/chudesnyy-mir-peppi-rabochaya-tetrad/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "4 класс",
+    "url": "/4-klass/",
+    "children": [
+      {
+        "title": "Описание комплекта",
+        "url": "/4-klass/",
+        "children": []
+      },
+      {
+        "title": "Такие непохожие писатели",
+        "url": "/takie-nepokhozhie-pisateli/",
+        "children": [
+          {
+            "title": "Он живой и светится",
+            "url": "/on-zhivoy-i-svetitsya/",
+            "children": []
+          },
+          {
+            "title": "Про любовь и непогоду",
+            "url": "/pro-lyubov-i-nepogodu/",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Статьи",
+    "url": "/stati/",
+    "children": []
+  }
+]

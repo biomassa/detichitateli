@@ -1,0 +1,162 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { allEntries, courseTree, flatten, gradeOf, menuTrail, href, shortTitle, tagSlug, type AnyEntry, type CourseNode } from '../lib/site';
+
+export async function getStaticPaths() {
+  const entries = await allEntries();
+  return entries
+    .filter((e) => e.data.url !== '/')
+    .map((entry) => ({ params: { path: entry.data.url.replace(/^\/|\/$/g, '') }, props: { entry } }));
+}
+
+const { entry } = Astro.props as { entry: AnyEntry };
+const { Content, headings } = await render(entry);
+const url = entry.data.url;
+const data = entry.data as AnyEntry['data'] & Record<string, any>;
+
+// ---- course pages (ex-Moodle)
+let course: CourseNode | null = null;
+let trail: CourseNode[] = [];
+let prev: CourseNode | undefined, next: CourseNode | undefined;
+if (entry.collection === 'courses') {
+  course = await courseTree(url.split('/')[1]);
+  if (course) {
+    const find = (n: CourseNode, path: CourseNode[]): CourseNode[] | null =>
+      n.url === url ? [...path, n] : n.children.reduce<CourseNode[] | null>((r, c) => r ?? find(c, [...path, n]), null);
+    trail = find(course, []) ?? [];
+    const order = flatten(course).filter((n) => n.url.split('/').filter(Boolean).length >= 3);
+    const i = order.findIndex((n) => n.url === url);
+    if (i >= 0) { prev = order[i - 1]; next = order[i + 1]; }
+  }
+}
+const section = trail[1];
+
+// ---- site pages
+const menuPath = entry.collection !== 'courses' ? menuTrail(url) : menuTrail(course?.url ?? '');
+const grade = entry.collection !== 'courses' ? gradeOf(url) : gradeOf(course?.url ?? '');
+
+// breadcrumbs: Главная / grade / … (the page itself is the heading)
+const crumbs: { title: string; url: string }[] = [{ title: 'Главная', url: '/' }];
+if (entry.collection === 'courses') {
+  if (grade) crumbs.push({ title: grade.title, url: grade.url });
+  trail.slice(0, -1).forEach((n, i) => crumbs.push({ title: i === 0 ? n.title.replace(/^.*— /, '') : shortTitle(n.title), url: n.url }));
+} else if (menuPath) {
+  menuPath.slice(0, -1).forEach((m) => crumbs.push({ title: m.title, url: m.url }));
+}
+
+const h2s = headings.filter((h) => h.depth === 2);
+const detailsCount = (entry.body ?? '').split('<details>').length - 1;
+// «…уроки» only where the collapsible blocks are lessons (Сказки из-за моря, Пеппи), not on «Статьи»
+const summaries = [...(entry.body ?? '').matchAll(/<summary>(.*?)<\/summary>/g)].map((m) => m[1]);
+const expandLabel = summaries.some((s) => /урок/i.test(s)) ? 'Развернуть все уроки' : 'Развернуть все';
+const placeholder = 'placeholder' in data && data.placeholder;
+const isTakie = url === '/takie-nepokhozhie-pisateli/';
+const parentMenu = menuPath && menuPath.length > 1 ? menuPath[menuPath.length - 2] : grade;
+const title = data.title;
+const chev = '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
+---
+<Base title={title} url={url}>
+  <div class="wrap page">
+    <nav class="crumbs" aria-label="Навигационная цепочка">
+      {crumbs.map((c, i) => <>{i > 0 && <span aria-hidden="true">/</span>}<a href={href(c.url)}>{c.title}</a></>)}
+    </nav>
+
+    <div class="cols">
+      {entry.collection === 'courses' && course && (
+        <aside class="cols__side" aria-label="Разделы курса">
+          <details class="side-toggle" open>
+            <summary>Все разделы курса <Fragment set:html={chev} /></summary>
+            <div class="sidenav">
+              <a class="sidenav__course" href={href(course.url)}>
+                <span><small>Методическое сопровождение</small>«{course.title.replace(/^.*— /, '')}»</span>
+              </a>
+              <ol>
+                {course.children.map((s) => (
+                  <li>
+                    <a href={href(s.url)} aria-current={s.url === url ? 'page' : (s === section ? 'true' : undefined)}>{shortTitle(s.title)}</a>
+                    {s === section && s.children.length > 0 && (
+                      <ul class="sub">
+                        {s.children.map((it) => (
+                          <li><a href={href(it.url)} aria-current={trail.includes(it) ? 'page' : undefined}>{shortTitle(it.title)}</a></li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </details>
+        </aside>
+      )}
+
+      {entry.collection !== 'courses' && grade && grade.children.length > 0 && h2s.length < 3 && (
+        <aside class="cols__side" aria-label={`Разделы: ${grade.title}`}>
+          <details class="side-toggle" open>
+            <summary>{grade.title}: все разделы <Fragment set:html={chev} /></summary>
+            <div class="sidenav">
+              <p class="sidenav__label">{grade.title}</p>
+              <ul>
+                {grade.children.map((c) => (
+                  <li>
+                    <a href={href(c.url)} aria-current={c.url === url ? 'page' : undefined}>{c.title}</a>
+                    {c.children.length > 0 && (
+                      <ul class="sub">{c.children.map((g) => <li><a href={href(g.url)}>{g.title}</a></li>)}</ul>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </details>
+        </aside>
+      )}
+
+      <article class="cols__main">
+        <h1 class="page-title">{title}</h1>
+
+        {detailsCount >= 3 && (
+          <button type="button" class="btn btn--ghost btn--small expand-all" data-expand-all data-label={expandLabel} aria-pressed="false">{expandLabel}</button>
+        )}
+
+        {placeholder ? (
+          <div class="placeholder">
+            <p>Раздел в разработке.</p>
+            {isTakie ? (
+              <ul>
+                {(menuPath?.at(-1)?.children ?? []).map((c) => <li><a href={href(c.url)}>{c.title}</a></li>)}
+              </ul>
+            ) : parentMenu && parentMenu.url !== url ? (
+              <p><a href={href(parentMenu.url)}>← {parentMenu.title}</a></p>
+            ) : (
+              <p><a href={href('/')}>← На главную</a></p>
+            )}
+          </div>
+        ) : (
+          <div class="prose"><Content /></div>
+        )}
+
+        {entry.data.tags?.length ? (
+          <p class="tags"><span class="tags__label">Теги:</span>{' '}
+            {entry.data.tags.map((t) => <a class="tag" href={href(`/tegi/${tagSlug(t)}/`)}>{t}</a>)}
+          </p>
+        ) : null}
+
+        {(prev || next) && (
+          <nav class="pager" aria-label="Соседние страницы">
+            {prev && <a class="prev" href={href(prev.url)}><small>← Назад</small><strong>{shortTitle(prev.title)}</strong></a>}
+            {next && <a class="next" href={href(next.url)}><small>Дальше →</small><strong>{shortTitle(next.title)}</strong></a>}
+          </nav>
+        )}
+      </article>
+
+      {entry.collection !== 'courses' && h2s.length >= 3 && (
+        <aside class="cols__side" aria-label="Содержание страницы">
+          <nav class="toc">
+            <p class="sidenav__label">Содержание</p>
+            <ol>{h2s.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+          </nav>
+        </aside>
+      )}
+    </div>
+  </div>
+</Base>

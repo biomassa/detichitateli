@@ -1,0 +1,26 @@
+---
+// Tag overview, from Moodle's «Поиск тегов» page: every tag as a cloud, sized by use.
+import Base from '../../layouts/Base.astro';
+import { tags, tagCount, href } from '../../lib/site';
+const list = Object.entries(tags).map(([slug, t]) => ({ slug, name: t.name, n: tagCount(t) }));
+const max = Math.max(...list.map((t) => t.n));
+// five sizes, by share of the most used tag
+const size = (n: number) => 1 + Math.round((4 * Math.log(n)) / Math.log(Math.max(max, 2)));
+---
+<Base title="Теги" url="/tegi/">
+  <div class="wrap page" style="max-width: 900px">
+    <h1 class="page-title">Теги</h1>
+    <p class="tag-cloud">
+      {list.map((t) => <a class={`tag tag--s${size(t.n)}`} href={href(`/tegi/${t.slug}/`)}>{t.name}</a>)}
+    </p>
+  </div>
+</Base>
+
+<style>
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: center; }
+  .tag--s1 { font-size: 15px; }
+  .tag--s2 { font-size: 17px; }
+  .tag--s3 { font-size: 19px; }
+  .tag--s4 { font-size: 22px; }
+  .tag--s5 { font-size: 26px; }
+</style>
