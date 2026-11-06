@@ -6,7 +6,7 @@ section_order: 5
 order: 7
 moodle_module_id: 65
 ---
-![](/files/screen-shot-2020-10-23-at-03-40-51.png)
+![](/files/screen-shot-2020-10-23-at-03-40-51.png#w=300)
 
 **Михаил Яснов**
 

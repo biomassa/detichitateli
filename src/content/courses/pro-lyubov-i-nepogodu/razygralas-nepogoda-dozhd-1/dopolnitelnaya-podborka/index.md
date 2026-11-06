@@ -6,7 +6,7 @@ section_order: 3
 order: 7
 moodle_module_id: 27
 ---
-![](/files/screen-shot-2020-10-23-at-03-40-51.png)
+![](/files/screen-shot-2020-10-23-at-03-40-51.png#w=300)
 
 **Ирина Токмакова**
 

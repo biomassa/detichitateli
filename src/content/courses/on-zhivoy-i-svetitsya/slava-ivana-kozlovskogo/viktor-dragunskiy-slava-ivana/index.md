@@ -74,7 +74,7 @@ moodle_module_id: 438
 
 И в [битве упоительной](/on-zhivoy-i-svetitsya/kniga-1-on-zhivoy-i-svetitsya/redkie-slova-iz-rasskazov/#entry-7)…
 
-![](/files/kozl-big.png)
+![](/files/kozl-big.png#w=800)
 
 Я хорошо пел, наверное, даже было слышно на другой улице:
 
@@ -138,4 +138,4 @@ moodle_module_id: 438
 
 «Неужели Козловский поёт громче меня?»
 
-![](/files/kozl-2.png)
+![](/files/kozl-2.png#w=665)

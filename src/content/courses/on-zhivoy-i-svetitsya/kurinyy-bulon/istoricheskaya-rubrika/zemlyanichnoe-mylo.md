@@ -16,7 +16,7 @@ tags: ["куриный бульон", "историческая рубрика"]
 </div>
 <div class="media-row__pic">
 
-![](/files/zeml-mylo.jpg)
+![](/files/zeml-mylo.jpg#w=400)
 
 </div>
 </div>

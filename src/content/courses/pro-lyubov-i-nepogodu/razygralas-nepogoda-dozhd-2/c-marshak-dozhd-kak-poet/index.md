@@ -6,7 +6,7 @@ section_order: 4
 order: 17
 moodle_module_id: 54
 ---
-![](/files/marshak.jpg)
+![](/files/marshak.jpg#w=240)
 
 **Самуил Маршак**
 

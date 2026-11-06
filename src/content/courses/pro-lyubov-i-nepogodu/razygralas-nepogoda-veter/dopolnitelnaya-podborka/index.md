@@ -6,7 +6,7 @@ section_order: 8
 order: 7
 moodle_module_id: 106
 ---
-![](/files/thunder-pic.png)
+![](/files/thunder-pic.png#w=400)
 
 **Марина Бородицкая**\
 **Ветер**\

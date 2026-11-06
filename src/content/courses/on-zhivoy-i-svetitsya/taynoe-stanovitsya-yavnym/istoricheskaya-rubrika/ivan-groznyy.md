@@ -17,9 +17,9 @@ order: 5
 </div>
 <div class="media-row__pic">
 
-![](/files/ivan-grozny-frame.jpg)
+![](/files/ivan-grozny-frame.jpg#w=400)
 
-![](/files/274px-monomakhov-tron-01-by-shakko.jpg)
+![](/files/274px-monomakhov-tron-01-by-shakko.jpg#w=350)
 
 </div>
 </div>

@@ -26,7 +26,7 @@ order: 4
 
 - [Рабочая тетрадь «Тайны и превращения чудесной куклы», С. 42–43](/files/doll-42-43.pdf)
 
-- [О лирике и лирическом герое (из книги «Как рождается произведение»](/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/o-lirike-i-liricheskom-geroe/)
+- [О лирике и лирическом герое (из книги «Как рождается произведение»)](/pro-lyubov-i-nepogodu/razygralas-nepogoda-dozhd-2/o-lirike-i-liricheskom-geroe/)
 
 - [Т. Троицкая, Т. Новохатская. Типология детских стихотворений](/files/tatiana-troitskaya-tatiana-novokhatskaya-typology-of-childrens-poetry.pdf)
 

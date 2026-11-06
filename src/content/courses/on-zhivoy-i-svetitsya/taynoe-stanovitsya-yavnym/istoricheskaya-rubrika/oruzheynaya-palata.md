@@ -13,7 +13,7 @@ order: 3
 </div>
 <div class="media-row__pic">
 
-![](/files/moscowkremlin-armoury-s30.jpg)
+![](/files/moscowkremlin-armoury-s30.jpg#w=450)
 
 </div>
 </div>

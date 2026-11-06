@@ -13,7 +13,7 @@
   --radius: 12px;
   --wrap: 1320px;
   --gutter: 32px;
-  --font: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font: 'PT Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
 @media (max-width: 720px) { :root { --gutter: 20px; } }
 
@@ -157,6 +157,10 @@ dialog.search { width: min(720px, 100% - 32px); height: auto; max-height: calc(1
 .prose hr.stars::after { content: "*\2002*\2002*"; font-size: 18px; }
 /* long words, links and file names wrap instead of widening the page */
 .prose { overflow-wrap: break-word; }
+/* Russian hyphenation (needs lang="ru") and no one-word last lines */
+.prose p, .prose li, .prose dd, .prose td { hyphens: auto; text-wrap: pretty; }
+/* headings listed in src/data/heading-phrases.json break between phrases */
+.phrase { display: inline-block; }
 /* a text with a picture beside it (was a layout table); on phones the picture goes under the text */
 .media-row { display: flex; gap: 32px; align-items: flex-start; margin: 0 0 1.5em; }
 .media-row__text { flex: 1 1 auto; min-width: 0; }
@@ -184,12 +188,22 @@ dialog.search { width: min(720px, 100% - 32px); height: auto; max-height: calc(1
 .img-row { display: grid; gap: 20px; margin: 0 0 1.5em; align-items: start; }
 .img-row--cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .img-row--cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.img-row img { display: block; width: auto; max-width: 100%; height: auto; border: 1px solid var(--line); }
+.img-row img { display: block; width: auto; max-width: 100%; height: auto; }
 .img-row--one img { max-width: 100%; }
 @media (max-width: 720px) {
   .img-row { gap: 12px; }
   .img-row--cols-2, .img-row--cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+/* pictures with text wrapping around them (as on the old site); on phones they sit between paragraphs */
+.prose img.pic-float { display: block; max-width: 50%; height: auto; }
+.pic-float--left { float: left; margin: 4px 28px 16px 0; }
+.pic-float--right { float: right; margin: 4px 0 16px 28px; }
+.prose::after { content: ''; display: block; clear: both; }
+@media (max-width: 640px) {
+  .prose img.pic-float { float: none; max-width: 100%; margin: 0 0 1.5em; }
+}
+/* every other picture keeps the width it had on the old site (style="width: …"), never wider than the column */
+.prose img { max-width: 100%; height: auto; }
 /* Moodle tags under a page or a glossary entry */
 .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 32px 0 0; font-size: 15px; }
 .prose .tags { margin: 0 0 1.5em; }

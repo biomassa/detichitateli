@@ -15,7 +15,7 @@ order: 4
 </div>
 <div class="media-row__pic">
 
-![](/files/800px-moscow-july-2011-10a.jpg)
+![](/files/800px-moscow-july-2011-10a.jpg#w=450)
 
 </div>
 </div>

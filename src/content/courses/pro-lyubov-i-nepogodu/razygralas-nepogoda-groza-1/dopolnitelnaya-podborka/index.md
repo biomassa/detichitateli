@@ -6,7 +6,7 @@ section_order: 6
 order: 7
 moodle_module_id: 81
 ---
-![](/files/thunder-pic.png)
+![](/files/thunder-pic.png#w=400)
 
 **Агния Барто**
 

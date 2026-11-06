@@ -6,4 +6,4 @@ section_order: 6
 order: 10
 moodle_module_id: 460
 ---
-![](/files/kozloscheme.png)
+![](/files/kozloscheme.png#w=1280)

@@ -16,7 +16,7 @@ tags: ["Слава Ивана Козловского", "историческая
 </div>
 <div class="media-row__pic">
 
-![](/files/11.jpg)
+![](/files/11.jpg#w=450)
 
 </div>
 </div>

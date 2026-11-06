@@ -16,7 +16,7 @@ draft: true
 </div>
 <div class="media-row__pic">
 
-![](/files/screen-shot-2020-07-07-at-00-43-08.png)
+![](/files/screen-shot-2020-07-07-at-00-43-08.png#w=137)
 
 </div>
 </div>

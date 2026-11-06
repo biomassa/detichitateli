@@ -11,4 +11,4 @@ tags: ["историческая рубрика", "Друг детства"]
 
 Вот как она выглядела в те годы, когда Виктор Драгунский писал «Денискины рассказы»:
 
-![](/files/9.jpg).         ![](/files/9mavruwfqf-evgpb-dv3dl3gatc7ipo0sk2qfiauib5pgfffj0bq6xrt.jpeg)
+![](/files/9.jpg#w=279).         ![](/files/9mavruwfqf-evgpb-dv3dl3gatc7ipo0sk2qfiauib5pgfffj0bq6xrt.jpeg#w=550)

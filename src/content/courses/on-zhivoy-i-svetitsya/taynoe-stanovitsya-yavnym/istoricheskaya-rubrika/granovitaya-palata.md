@@ -13,7 +13,7 @@ order: 2
 </div>
 <div class="media-row__pic">
 
-![](/files/1024px-granovitaya-palata-01.jpeg)
+![](/files/1024px-granovitaya-palata-01.jpeg#w=450)
 
 </div>
 </div>

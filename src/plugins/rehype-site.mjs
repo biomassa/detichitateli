@@ -47,6 +47,19 @@ export default function rehypeSite({ base = '/' } = {}) {
       }];
     });
 
+    // the old display width and text wrap travel in the picture address: /files/x.png#w=300&float=left
+    visit(tree, 'element', (node) => {
+      if (node.tagName !== 'img' || typeof node.properties?.src !== 'string' || !node.properties.src.includes('#')) return;
+      const [src, frag] = node.properties.src.split('#');
+      const o = Object.fromEntries(new URLSearchParams(frag));
+      node.properties.src = src;
+      if (/^\d+$/.test(o.w || '')) node.properties.style = `width: ${o.w}px`;
+      if (o.float === 'left' || o.float === 'right') {
+        node.properties.className = ['pic-float', `pic-float--${o.float}`];
+        node.data = { ...node.data, float: true };
+      }
+    });
+
     // rows of covers
     visit(tree, (node) => {
       if (!node.children) return;
@@ -55,7 +68,11 @@ export default function rehypeSite({ base = '/' } = {}) {
       for (const c of node.children) {
         const isImgP = c.type === 'element' && c.tagName === 'p' && onlyWhitespace(c)
           && elementKids(c).length >= 1 && elementKids(c).every((k) => k.tagName === 'img');
-        if (isImgP) {
+        if (isImgP && elementKids(c).some((k) => k.data?.float)) {
+          // a picture with text wrapping around it: no row, no empty paragraph
+          row = null;
+          out.push(...elementKids(c));
+        } else if (isImgP) {
           if (!row) { row = { type: 'element', tagName: 'div', properties: { className: ['img-row'] }, children: [] }; out.push(row); }
           row.children.push(...elementKids(c));
         } else if (row && c.type === 'text' && !c.value.trim()) {

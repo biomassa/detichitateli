@@ -6,24 +6,24 @@ section_order: 4
 order: 16
 moodle_module_id: 53
 ---
-![](/files/1-2.jpg)
+![](/files/1-2.jpg#w=795)
 
-![](/files/2-2.jpg)
+![](/files/2-2.jpg#w=601)
 
-![](/files/3.jpg)
+![](/files/3.jpg#w=572)
 
-![](/files/4-2.jpg)
+![](/files/4-2.jpg#w=718)
 
-![](/files/5-2.jpg)
+![](/files/5-2.jpg#w=597)
 
-![](/files/6.jpg)
+![](/files/6.jpg#w=575)
 
-![](/files/7-2.jpg)
+![](/files/7-2.jpg#w=900)
 
-![](/files/8.jpg)
+![](/files/8.jpg#w=579)
 
-![](/files/9-2.jpg)
+![](/files/9-2.jpg#w=596)
 
-![](/files/10.jpg)
+![](/files/10.jpg#w=800)
 
-![](/files/11-2.jpg)
+![](/files/11-2.jpg#w=900)

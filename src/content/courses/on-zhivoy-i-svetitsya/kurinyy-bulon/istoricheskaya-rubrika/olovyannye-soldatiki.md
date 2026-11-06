@@ -18,7 +18,7 @@ tags: ["куриный бульон", "историческая рубрика"]
 </div>
 <div class="media-row__pic">
 
-![](/files/olov-soldatiki.jpg)
+![](/files/olov-soldatiki.jpg#w=400)
 
 </div>
 </div>
