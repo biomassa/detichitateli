@@ -30,7 +30,7 @@ jobs:
       - run: npm run build
         env:
           BASE_PATH: /detichitateli/
-          SITE_URL: https://biomassa.github.io
+          SITE_URL: https://blackdingus.online
           NOINDEX: '1'
       - uses: actions/upload-pages-artifact@v3
         with:
