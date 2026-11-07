@@ -1,6 +1,6 @@
 # Builds the site and publishes it to GitHub Pages on every push to main.
-# Review copy: served at https://detichitateli.github.io/ and hidden from search engines (NOINDEX=1).
-# At launch on the real domain: set SITE_URL to the domain and drop NOINDEX.
+# The site is served at https://detichitateli.org/ (custom domain set in the repository's Pages settings).
+# To hide it from search engines again, add NOINDEX: '1' to the build env.
 name: Deploy to GitHub Pages
 
 on:
@@ -30,8 +30,7 @@ jobs:
       - run: npm run build
         env:
           BASE_PATH: /
-          SITE_URL: https://detichitateli.github.io
-          NOINDEX: '1'
+          SITE_URL: https://detichitateli.org
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
