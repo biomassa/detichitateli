@@ -186,7 +186,7 @@ const tg = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="
   .block__title { margin: 0 0 8px; font-size: 36px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
   .block__lead { margin: 0 0 40px; color: var(--muted); font-size: 18px; }
   @media (max-width: 720px) { .block__title { font-size: 26px; } .block__lead { margin-bottom: 20px; font-size: 16px; } }
-  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); gap: 24px; }
   .grade { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; color: var(--text); text-decoration: none; background: #FFF; }
   .grade:hover { border-color: var(--accent); color: var(--text); }
   .grade img { width: 100%; height: 200px; object-fit: cover; object-position: top; background: var(--surface); }
@@ -203,7 +203,7 @@ const tg = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="
     .grade__books { font-size: 14px; color: var(--muted); line-height: 1.45; gap: 0; }
     .grade__more { display: none; }
   }
-  .confs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .confs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 24px; }
   .conf { display: flex; flex-direction: column; gap: 12px; padding: 26px; border-radius: 14px; background: #FFF; border: 1px solid var(--line); }
   .conf p, .conf h3 { margin: 0; }
   .conf__date { font-size: 15px; font-weight: 600; color: var(--accent); }
@@ -230,7 +230,7 @@ const tg = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="
   .lecture .video { margin: 0; max-width: none; }
   .lecture figcaption { margin-top: 12px; font-size: 18px; font-weight: 600; line-height: 1.35; }
   @media (max-width: 900px) { .lectures { grid-template-columns: 1fr; max-width: 560px; } }
-  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 24px; }
   .link-card { display: flex; flex-direction: column; gap: 4px; padding: 28px; border-radius: 14px; border: 1px solid var(--line); color: var(--muted); text-decoration: none; font-size: 16px; }
   .link-card:hover { border-color: var(--accent); color: var(--muted); }
   .link-card__title { font-size: 21px; font-weight: 600; color: var(--text); }
