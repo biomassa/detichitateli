@@ -1,6 +1,6 @@
 # Builds the site and publishes it to GitHub Pages on every push to main.
-# Review copy: served under /detichitateli/ and hidden from search engines (NOINDEX=1).
-# At launch on the real domain: set BASE_PATH to "/", SITE_URL to the domain, and drop NOINDEX.
+# Review copy: served at https://detichitateli.github.io/ and hidden from search engines (NOINDEX=1).
+# At launch on the real domain: set SITE_URL to the domain and drop NOINDEX.
 name: Deploy to GitHub Pages
 
 on:
@@ -29,8 +29,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          BASE_PATH: /detichitateli/
-          SITE_URL: https://blackdingus.online
+          BASE_PATH: /
+          SITE_URL: https://detichitateli.github.io
           NOINDEX: '1'
       - uses: actions/upload-pages-artifact@v3
         with:
